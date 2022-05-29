@@ -1,0 +1,22 @@
+1) Connect to MySQL Client
+	CMD> mysql -h localhost -u root
+
+2) Create Database
+	mysql> create database egdb;
+
+3) Select Database
+	mysql> use egdb;
+
+4) Create Employee Table
+	mysql> CREATE TABLE employees(id int, name varchar(200));
+
+5) Check All Tables
+	mysql> show tables;
+	Particular Table details:        desc employees;
+	
+6) Insert Data in Employees table
+	mysql>  INSERT INTO employees(id,name) VALUES(1,'A');
+	mysql>  INSERT INTO employees(id,name) VALUES(2,'B');
+
+7) Check Values in Employees table
+	mysql> SELECT * FROM employees;
