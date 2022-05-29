@@ -1,2 +1,3 @@
 pip show virtualenv
 pip install virtualenv
+python -m virtualenv .envAppData
