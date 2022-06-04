@@ -1,3 +1,10 @@
+One Time Commands:
+=================
 pip show virtualenv
 pip install virtualenv
-python -m virtualenv .envAppData
+python -m virtualenv .envPyAppDB
+pip install -r requirements.txt
+
+Regular Commands:
+------------------------
+.envPyAppDB\Scripts\activate.bat

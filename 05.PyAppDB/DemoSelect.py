@@ -11,7 +11,7 @@ config = {
 }
 
 cnx = mysql.connector.connect(**config)
-query="Select id,name from employee"
+query="Select id,name from employees"
 cursor=cnx.cursor()
 cursor.execute("USE "+databaseName)
 cursor.execute(query)
